@@ -30,7 +30,7 @@ namespace DepartmentServer
                     broadcast.FireEvent();
                     count = service.GetItemCount();
                 }
-                Thread.Sleep(5000);
+                Thread.Sleep(6000);
             }
         }
     }
